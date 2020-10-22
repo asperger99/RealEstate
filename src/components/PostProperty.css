@@ -1,0 +1,60 @@
+.postProperty {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.postProperty > h1 {
+  font-weight: 900;
+  color: white;
+  margin: 40px 0;
+}
+.postProperty__details {
+  border: 1px solid white;
+  width: 80%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: rgba(94, 89, 89, 0.5);
+  text-align: center;
+  padding-top: 10px;
+}
+.postProperty__details > input {
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  height: 30px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.postProperty__button > button {
+  height: 60px;
+  width: 200px;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.postProperty__button > button:hover {
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  transition: all 0.3s ease-out;
+}
+::placeholder {
+  color: white;
+  font-size: small;
+}
+.selectCity {
+  color: white !important;
+  /* background-color: white !important; */
+}
+.input__file {
+  cursor: pointer;
+}
